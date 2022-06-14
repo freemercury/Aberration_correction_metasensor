@@ -32,7 +32,7 @@ The code is tested in MATLAB 2020b (64bit) under the MS Windows 10 64bit version
 
 1. Unpack the package
 2. Include subdirectory in your Matlab path
-3. Set up the environment for subfunctions in python: Python 3.6, Pytorch >= 1.10.0, NVIDIA GPU (11 GB Memory) + CUDA
+3. Set up the environment for subfunctions in python: **Python 3.6**, **Pytorch >= 1.10.0**, **NVIDIA GPU (>=11 GB Memory)** + **CUDA**
 4. Run the .m files in './Code/'.
     
  
