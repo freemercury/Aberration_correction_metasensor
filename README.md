@@ -53,6 +53,15 @@ The code is tested in MATLAB 2020b (64bit) under the MS Windows 10 64bit version
 * Download more Raw scanning light field data from the following link.
 https://cloud.tsinghua.edu.cn/d/bb4610b6e82349e89caa/
 
+Main modules description
+----------------
+1. Meta_PSF_compute.m: Output **Meta PSF**
+2. Rawdata_realign.m: Input with **Scanning Light field Raw data**. To realign LF Raw into Meta images.
+3. Reconstruction_main.m: Input with **Meta images** & **Meta PSF**. To Remove the aberration and reconstruct high resolution images.
+3. Lens_correction.m: Input with **Calibration Scanning Light field Raw data**. To estimate the whole aberration distribution of the Optical lens.
+4. Dynamic_correction.m: Input with **Meta images** with motion artefacts. To eliminate the motion artefacts when shooting the dynamic scence.
+5. Turbulence_correction.m: Input with **Meta images** with turbulence artefacts. To eliminate the motion artefacts when shooting the turbulent scence.
+
 ----------------
 Citation 
 ---------------- 
