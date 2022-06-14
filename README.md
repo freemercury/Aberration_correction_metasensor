@@ -21,10 +21,10 @@ For algorithmic details, please refer to our paper.
 
 Additional Large size Demo data can be downloaded with the following link:
 1. Folder: './Data/Calibration/demo.tif':
-**"Link"**
+https://doi.org/10.5281/zenodo.6641771
    
 2. Folder: './Data/Rawdata/ISO_5_5_11.0ms.0.tif':
-**"Link"**
+https://doi.org/10.5281/zenodo.6641771
 ----------------
 How to use
 ----------------
