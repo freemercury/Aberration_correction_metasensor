@@ -1,4 +1,4 @@
-# Aberration_correct_Meta_sensor
+# Aberration_correction_Meta_sensor
 Title:      Matlab code for "**An integrated imaging sensor for aberration-corrected 3D photography**"
 
 Version:    1.0 
@@ -32,18 +32,8 @@ The code is tested in MATLAB 2020b (64bit) under the MS Windows 10 64bit version
 
 1. Unpack the package
 2. Include subdirectory in your Matlab path
-3. Run the .m files in './Code/' :
-    Meta_PSF_compute.m: Output **Meta PSF**
-    Rawdata_realign.m: Input with **Scanning Light field Raw data**
-                       To realign LF Raw into Meta images.
-    Reconstruction_main.m: Input with **Meta images** & **Meta PSF**
-                       To Remove the aberration and reconstruct high resolution images.
-    Lens_correction.m: Input with **Calibration Scanning Light field Raw data**
-                        To estimate the whole aberration distribution of the Optical lens.
-    Dynamic_correction.m: Input with **Meta images** with motion artefacts
-                          To eliminate the motion artefacts when shooting the dynamic scence.
-    Turbulence_correction.m: Input with **Meta images** with turbulence artefacts
-                             To eliminate the motion artefacts when shooting the turbulent scence.
+3. 
+4. Run the .m files in './Code/'.
     
  
    a). We have provided some demo data for test of all the main '.m' files described above. Some of the data are too large for GitHub. So we upload them in the Tsinghua cloud drive described before. The link has been realeased above. There are also some origing raw data of the scanning light field which are included in the Link below. These are the relevant data of the published paper. All of them can be processed through the pipeline with some hyper parameters fine tuned.
@@ -55,12 +45,12 @@ https://cloud.tsinghua.edu.cn/d/bb4610b6e82349e89caa/
 
 Main modules description
 ----------------
-1. Meta_PSF_compute.m: Output **Meta PSF**
-2. Rawdata_realign.m: Input with **Scanning Light field Raw data**. To realign LF Raw into Meta images.
-3. Reconstruction_main.m: Input with **Meta images** & **Meta PSF**. To Remove the aberration and reconstruct high resolution images.
-3. Lens_correction.m: Input with **Calibration Scanning Light field Raw data**. To estimate the whole aberration distribution of the Optical lens.
-4. Dynamic_correction.m: Input with **Meta images** with motion artefacts. To eliminate the motion artefacts when shooting the dynamic scence.
-5. Turbulence_correction.m: Input with **Meta images** with turbulence artefacts. To eliminate the motion artefacts when shooting the turbulent scence.
+1. **Meta_PSF_compute.m**: Output **Meta PSF**
+2. **Rawdata_realign.m**: Input with **Scanning Light field Raw data**. To realign LF Raw into Meta images.
+3. **Reconstruction_main.m**: Input with **Meta images** & **Meta PSF**. To Remove the aberration and reconstruct high resolution images.
+3. **Lens_correction.m**: Input with **Calibration Scanning Light field Raw data**. To estimate the whole aberration distribution of the Optical lens.
+4. **Dynamic_correction.m**: Input with **Meta images** with motion artefacts. To eliminate the motion artefacts when shooting the dynamic scence.
+5. **Turbulence_correction.m**: Input with **Meta images** with turbulence artefacts. To eliminate the motion artefacts when shooting the turbulent scence.
 
 ----------------
 Citation 
