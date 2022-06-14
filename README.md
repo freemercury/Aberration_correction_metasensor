@@ -47,7 +47,8 @@ The code is tested in MATLAB 2020b (64bit) under the MS Windows 10 64bit version
     
  
    a). We have provided some demo data for test of all the main '.m' files described above. Some of the data are too large for GitHub. So we upload them in the Tsinghua cloud drive described before. The link has been realeased above. There are also some origing raw data of the scanning light field which are included in the Link below. These are the relevant data of the published paper. All of them can be processed through the pipeline with some hyper parameters fine tuned.
-   b). The code for 3D photography of Meta images are refereced from paper[3]. The origin code for test can be downloaded here "https://github.com/hotndy/LFDepth_POBR.git"
+  
+   b). The code for 3D photography of Meta images are refereced from paper[3]. The origin code for test can be downloaded here "https://github.com/hotndy/LFDepth_POBR.git". The test demo data for 3D photography can be downloaded here: **"Link"**
 
 * Download more Raw scanning light field data from the following link.
 https://cloud.tsinghua.edu.cn/d/bb4610b6e82349e89caa/
@@ -57,7 +58,7 @@ Citation
 ---------------- 
 If you use this code please cite the companion paper where the orginal method appeared:
 
-Wu, J., Guo, Y., Deng, C. et al. "An integrated imaging sensor for aberration-corrected 3D photography". Nature (2022). **"DoiLink"**
+Wu, J., Guo, Y., Deng, C. et al. "An integrated imaging sensor for aberration-corrected 3D photography". Nature (2022). **"Doi Link"**
 
 
 ----------------
