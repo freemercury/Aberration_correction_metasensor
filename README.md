@@ -1,7 +1,10 @@
 # Aberration_correct_Meta_sensor
 Title:      Matlab code for "An integrated imaging sensor for aberration-corrected 3D photography"
+
 Version:    1.0 
+
 Copyright:  2022, JIAMIN WU, Yuduo Guo, Chao Deng,  Lu Fang, QIONGHAI DAI
+
 dli:        **"Link" **
 
 Edited based on the reference [1][2][3].
