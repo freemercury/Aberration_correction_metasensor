@@ -21,10 +21,10 @@ For algorithmic details, please refer to our paper.
 
 Additional Large size Demo data can be downloaded with the following link:
 1. Folder: './Data/Calibration/demo.tif':
-https://doi.org/10.5281/zenodo.6641771
+https://doi.org/10.5281/zenodo.6645196
    
 2. Folder: './Data/Rawdata/ISO_5_5_11.0ms.0.tif':
-https://doi.org/10.5281/zenodo.6641771
+https://doi.org/10.5281/zenodo.6645196
 ----------------
 How to use
 ----------------
@@ -38,10 +38,12 @@ The code is tested in MATLAB 2020b (64bit) under the MS Windows 10 64bit version
  
    a). We have provided some demo data for test of all the main '.m' files described above. Some of the data are too large for GitHub. So we upload them in the Tsinghua cloud drive described before. The link has been realeased above. There are also some origing raw data of the scanning light field which are included in the Link below. These are the relevant data of the published paper. All of them can be processed through the pipeline with some hyper parameters fine tuned.
   
-   b). The code for 3D photography of Meta images are refereced from paper[3]. The origin code for test can be downloaded here "https://github.com/hotndy/LFDepth_POBR.git". The test demo data for 3D photography can be downloaded here: **"Link"**
+   b). The code for 3D photography of Meta images are refereced from paper[3]. The origin code for test can be downloaded here "https://github.com/hotndy/LFDepth_POBR.git". The test demo data for 3D photography can be downloaded here: "https://doi.org/10.5281/zenodo.6645196"
 
 * Download more Raw scanning light field data from the following link.
-https://cloud.tsinghua.edu.cn/d/bb4610b6e82349e89caa/
+1. https://doi.org/10.5281/zenodo.6641847
+2. https://doi.org/10.5281/zenodo.6643915
+3. https://doi.org/10.5281/zenodo.6644095
 
 Main modules description
 ----------------
