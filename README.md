@@ -3,7 +3,7 @@ Title:      Matlab code for "**An integrated imaging sensor for aberration-corre
 
 Version:    1.0 
 
-Copyright:  2022, **JIAMIN WU**, **Yuduo Guo**, **Chao Deng**,  **Lu Fang**, **QIONGHAI DAI**
+Copyright:  2022, **Jiamin Wu**, **Yuduo Guo**, **Chao Deng**,  **Lu Fang**, **Qionghai Dai**
 
 doi:        **"Link" **
 
