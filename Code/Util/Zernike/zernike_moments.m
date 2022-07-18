@@ -114,13 +114,21 @@ function [zernMoments] = zernike_moments(im,indices,mask)
     % Evan Czako, 8.14.2019
     % -------------------------------------------
     
+    mask = double(mask);
+    ser = find(sum(mask,1)~=0);
+    mask_small = mask(ser(1):ser(end),ser(1):ser(end));
+
+    zernikeMats = zernike_mats(im,indices);
+    zernikeMats = zernikeMats(ser(1):ser(end),ser(1):ser(end),:);
+    zernikeMats = zernikeMats.* mask_small;
+
+    im = im(ser(1):ser(end),ser(1):ser(end));
+    im = im.*mask_small;
+
     dim=size(im);
     NumCols = dim(2);
     NumRows = dim(1);
-    mask(mask == 0) = nan;
-    
-    zernikeMats = zernike_mats(im,indices).*mask;
- 
+
     z_mats_reshaped = [];
     
     for i = 1:size(indices,1)

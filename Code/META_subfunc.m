@@ -137,7 +137,7 @@ for Iter_count = para.start_iteration:1:iter_times
     calcu_phase = mask_phase.*sli2q(calcu_dephase(:,:,2).*mask_phase, calcu_dephase(:,:,1).*mask_phase, xx, yy);
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    a1 = zernike_moments(iter_ratio*calcu_phase,indices,double(mask_phase));
+    a1 = zernike_moments(iter_ratio*calcu_phase,indices,mask_phase);
     aber_tmp = zeros(ps_phasesize,ps_phasesize);
     for i = 1:length(desired_indices)
         aber_tmp = aber_tmp + a1(desired_indices(i)).*zernikeMats(:,:,desired_indices(i));

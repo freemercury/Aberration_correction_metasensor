@@ -14,7 +14,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clc;clear;close all;
 %% Parameters
-for num = [2 3 1]
+for num = [1 2 3]
     ang_R = 6; %% The diameter of the angle numbers is 2*ang_R+1
     para.initpsfpath = '../Data/PSF/psf_init.mat';  %% Input the initial PSF w/o aberration
     para.Metaimage_name = ['../Data/Metaimage/demo',num2str(num),'.tif'];
