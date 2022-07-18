@@ -132,7 +132,7 @@ for Iter_count = para.start_iteration:1:iter_times
     calcu_dephase(:,:,2)  = interp2(x1,y1,waveShape_expand(:,:,2),x2,y2,'cubic');
     ra = (ps_smallsize-1)/2;
     [xx,yy]=meshgrid(-ra:ra,-ra:ra);
-    mask_phase = xx.^2+yy.^2<=(ra^2);
+    mask_phase = xx.^2+yy.^2<=(((2*sqrt(anglenum)+1)/Nnum*ra)^2);
     [xx, yy] = meshgrid(linspace(-1,1,ps_smallsize),linspace(-1,1,ps_smallsize));
     calcu_phase = mask_phase.*sli2q(calcu_dephase(:,:,2).*mask_phase, calcu_dephase(:,:,1).*mask_phase, xx, yy);
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
