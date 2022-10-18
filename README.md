@@ -5,7 +5,7 @@ Version:    1.0
 
 Copyright:  2022, **Jiamin Wu**, **Yuduo Guo**, **Chao Deng**,  **Lu Fang**, **Qionghai Dai**
 
-doi:        **"Link" **
+doi:         https://www.nature.com/articles/s41586-022-05306-8
 
 Edited based on the reference [1][2][3].
 
@@ -50,16 +50,15 @@ Main modules description
 1. **Meta_PSF_compute.m**: Output **Meta PSF**
 2. **Rawdata_realign.m**: Input with **Scanning Light field Raw data**. To realign LF Raw into Meta images.
 3. **Reconstruction_main.m**: Input with **Meta images** & **Meta PSF**. To Remove the aberration and reconstruct high resolution images.
-3. **Lens_correction.m**: Input with **Calibration Scanning Light field Raw data**. To estimate the whole aberration distribution of the Optical lens.
 4. **Dynamic_correction.m**: Input with **Meta images** with motion artefacts. To eliminate the motion artefacts when shooting the dynamic scence.
-5. **Turbulence_correction.m**: Input with **Meta images** with turbulence artefacts. To eliminate the motion artefacts when shooting the turbulent scence.
 
 ----------------
 Citation 
 ---------------- 
 If you use this code please cite the companion paper where the orginal method appeared:
 
-Wu, J., Guo, Y., Deng, C. et al. "An integrated imaging sensor for aberration-corrected 3D photography". Nature (2022). **"Doi Link"**
+Wu, J., Guo, Y., Deng, C. et al. "An integrated imaging sensor for aberration-corrected 3D photography". Nature (2022). 
+doi: https://www.nature.com/articles/s41586-022-05306-8
 
 
 ----------------
