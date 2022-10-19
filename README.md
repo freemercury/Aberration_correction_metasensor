@@ -67,7 +67,7 @@ IMPORTANT NOTE
 Should you have any questions regarding this code and the corresponding results, please contact Yuduo Guo (gyd20@mails.tsinghua.edu.cn).
 
 Reference:
-1.  Wu, H., Guo, Y., Deng, C., ... Fang L., & Dai, Q. (2022). An integrated imaging sensor for aberration-corrected 3D photography. Nature.
+1.  Wu, J., Guo, Y., Deng, C., ... Fang L., & Dai, Q. (2022). An integrated imaging sensor for aberration-corrected 3D photography. Nature.
 2.  R. Prevedel, Y.-G. Yoon, M. Hoffmann, N. Pak, G. Wetzstein, S. Kato, T. Schr?del, R. Raskar, M. Zimmer, E. S. Boyden, and A. Vaziri, 
      "Simultaneous whole-animal 3D imaging of neuronal activity using light-field microscopy," Nature Methods, 2014, 11(7): 727-730.
 3.  Wu, J., Lu, Z., Jiang, D., Guo, Y., Qiao, H., Zhang, Y., ... & Dai, Q. (2021). Iterative tomography with digital adaptive optics permits hour-long intravital observation of 3D subcellular dynamics at millisecond scale. Cell, 184(12), 3318-3332.
