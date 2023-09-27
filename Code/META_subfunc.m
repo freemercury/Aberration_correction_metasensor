@@ -40,21 +40,24 @@ for u=1:Nnum
 end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%Read in%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+flag = 0;
 for i = 1:Nnum^2
     u = ceil(i/Nnum);v = mod(i,Nnum);
     if v == 0
         v = Nnum;
     end
+
     if weight(u,v,1) == 1
         disp(['Demo || u = ', num2str(u), ', v = ', num2str(v), 'has been read!']);
         tmp = double(imread(data_name,i));
-        if i == 1
+        if Nshift ~= Nnum
+            tmp = imresize(tmp,Nnum/Nshift,'cubic');
+        end
+        if flag == 0
             x_wdf = size(tmp,2);
             y_wdf = size(tmp,1);
             Meta_data = zeros(y_wdf,x_wdf,Nnum,Nnum);
-        end
-        if Nshift ~= Nnum
-            tmp = imresize(tmp,Nnum/Nshift,'cubic');
+            flag = 1;
         end
         Meta_data(:,:,u,v) = tmp;
     end
